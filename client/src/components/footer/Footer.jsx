@@ -19,13 +19,13 @@ const Footer = () => {
       <div className={styles.left}>
         <div className={styles.direciona}>
           <div>
-            <h3>Banho e Tosa & Cuidados</h3>
+            <h3>Banho & Tosa e Cuidados</h3>
             <h1>(14) 99655-5555</h1>
             <p>Jardim Regina, Jaú - SP</p>
             <p>Rua Cap. José Ribeiro, 294</p>
           </div>
           <div>
-            <h3>Adote um pet & </h3>
+            <h3>Adote um pet</h3>
             <h1>https://apaja.org.br/</h1>
             <p>contato.apaja@gmail.com</p>
           </div>

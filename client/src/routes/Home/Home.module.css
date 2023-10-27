@@ -1,37 +1,54 @@
-.home{
-    display: flex;
+.home {
+  display: flex;
+  flex-direction: column;
 }
 
-.home img{
-    width: 100vw;
-    position: absolute;
+.home img {
+  width: 100vw;
 }
 
-.home h1{
-    color: #e6e3fd;
-    font-size: 40px;
-    font-weight: 400;
-    width: 12em;
+.home h1 {
+  color: #e6e3fd;
+  font-size: 40px;
+  font-weight: 400;
+  width: 12em;
 
-    position: relative;
-    left: 2.5em;
-    top: 4.5em;
+  left: 2.5em;
+  top: 4.5em;
 
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.home span{
-    font-size: 45px;
-    font-weight: 700;
+.home span {
+  font-size: 45px;
+  font-weight: 700;
 }
 
 .home p {
-    font-size: 18px;
-    font-weight: 200;
+  font-size: 18px;
+  font-weight: 200;
 }
 
-.services{
-    background: #fff;
-    height: 40em;
+.servicos {
+  display: flex;
+  flex-direction: column;
+}
+
+.servicos h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #e6e3fd;
+}
+
+.servicos h3{
+    font-size: 18px;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+
+  width: 100vw;
+  justify-content: center;
 }

@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  background: #e6e3fd;
+  border-radius: 5pt;
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+
+  width: 19em;
+  height: 4em;
+  margin: 0 1.5em;
+
+  transition: all 0.5s ease;
+}
+
+.icon{
+    width: 3em;
+    height: 3em;
+}
+
+.container h3{
+    color: #1b0021;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.seta{
+    width: 1.5em;
+}
+
+.container:hover{
+    border: 1px solid #1b0021;
+}
