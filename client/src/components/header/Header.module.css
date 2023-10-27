@@ -1,48 +1,85 @@
-.container {
+.container{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+
   width: 100vw;
+  z-index: 1;
 }
 
-.container img {
-  height: 2em;
-}
-
-.navBar a {
-  font-size: 18px;
-  font-weight: 400;
-  text-decoration: none;
-  color: #260027;
+.logo{
   height: fit-content;
-  padding: 0 1.5em;
+  width: fit-content;
+  margin: 0 6em;
 }
 
-.navBar2{
-    right: 0;
+.logo h1{
+  color: #1b0021;
+  font-weight: bolder;
+  font-size: 45px;
+
 }
 
-.navBar2 input {
-  background: none;
-  border: 1px solid #00000080;
-  border-radius: 10pt;
-
-  height: 2.5em;
+.navBar{
+  display: flex;
+  flex-direction: row;
+  margin: 0 3em;
 }
 
-.navBar2 input::placeholder {
-  color: rgba(38, 0, 39, 0.2);
-  font-size: 15px;
-  font-weight: 400;
-  padding-left: 1em;
+.navBar a{
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1b0021;
+
+  width: fit-content;
+  height: fit-content;
+
+  margin: 0 1em;
+  transition: all ease;
 }
 
-.navBar2 button {
-  background: none;
-  border: 1px solid #260027;
-  border-radius: 5pt;
-  color: #000;
-  margin: 0 0.75em;
+.navBar a:focus{
+  border-bottom: 3px solid #1b0021;
+}
 
+.end{
+  display: flex;
+  flex-direction: row;
+
+  margin: 0 5.5em;
+}
+
+.search{
+  height: fit-content;
+
+  margin: 0 1em;
+}
+
+.search{
+  display: flex;
   height: 3em;
+  align-items: center;
+}
+
+.search img{
+  height: 1.75em;
+}
+
+.end button{
+  background: #1b0021;
+  color: #e6e3fd;
+  height: 3em;
+  align-content: center;
+
+  margin: 0 0.5em;
+  transition: all 0.5s ease;
+}
+
+.end button:hover{
+  border: 1px solid #1b0021;
+  background: none;
+  color: #1b0021;
 }

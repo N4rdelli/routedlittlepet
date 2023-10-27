@@ -1,3 +1,11 @@
 body{
-  background-color: #ddbdff;
+  background-color: #e6e3fd;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  justify-content: space-between;
 }
