@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: row;
 
-  width: 100vw;
+  width: 100%;
   justify-content: space-between;
   padding: 3em 0 1em 0;
 }
@@ -46,7 +46,6 @@
 }
 
 .direciona p {
-  text-transform: capitalize;
   font-size: 16px;
   font-weight: 600;
   color: #1b0021;
