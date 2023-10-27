@@ -6,6 +6,8 @@
   width: 100vw;
   justify-content: space-between;
   padding: 3em 0 1em 0;
+  bottom: 0;
+  z-index: 2;
 }
 
 .left {
@@ -41,7 +43,7 @@
   font-weight: bolder;
   color: #1b0021;
 
-  margin: 0 0 0.5em 0;
+  margin: 0.5em 0;
   padding: 0;
 }
 
@@ -60,7 +62,7 @@
   width: fit-content;
   margin-right: 1.5em;
 
-  color: #9d84c3;
+  color: #7f6a9e;
   font-size: 16px;
   font-weight: 600;
 }
@@ -79,7 +81,7 @@
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
-  color: #9d84c3;
+  color: #7f6a9e;
 
   margin: 0;
   padding: 0;
@@ -95,9 +97,14 @@
   width: fit-content;
   margin-right: 1.5em;
 
-  color: #9d84c3;
+  color: #7f6a9e;
   font-size: 16px;
   font-weight: 600;
 
   margin: 0;
+}
+
+.socialIcons img{
+  height: 1.7em;
+  margin: 0.5em 0;
 }

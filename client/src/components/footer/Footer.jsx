@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
+import face from "../../assets/logo-facebook.svg";
+import insta from "../../assets/logo-instagram.svg";
+import tiktok from "../../assets/logo-tiktok.svg";
+
 const navigation = [
   { component: "/", name: "Página Inicial" },
   { component: "/products", name: "Produtos" },
@@ -16,15 +20,14 @@ const Footer = () => {
         <div className={styles.direciona}>
           <div>
             <h3>Banho e Tosa & Cuidados</h3>
-            <h1>+55 (14) 99655-5555</h1>
-            <p>Cidade tal, bairro tal</p>
-            <p>Rua não sei oq não sei oq lá, 1995</p>
+            <h1>(14) 99655-5555</h1>
+            <p>Jardim Regina, Jaú - SP</p>
+            <p>Rua Cap. José Ribeiro, 294</p>
           </div>
           <div>
             <h3>Adote um pet & </h3>
-            <h1>https://sitedeadoção</h1>
-            <p>Cidade tal, bairro tal</p>
-            <p>Rua não sei oq não sei oq lá, 1995</p>
+            <h1>https://apaja.org.br/</h1>
+            <p>contato.apaja@gmail.com</p>
           </div>
         </div>
         <div className={styles.links}>
@@ -40,9 +43,9 @@ const Footer = () => {
         <div>
           <h3>Nos siga</h3>
           <div className={styles.socialIcons}>
-            <img src="https://placehold.co/30x30" alt="Facebook"/>
-            <img src="https://placehold.co/30x30" alt="Instagram"/>
-            <img src="https://placehold.co/30x30" alt="TikTok"/>
+            <img src={face} alt="Facebook"/>
+            <img src={insta} alt="Instagram"/>
+            <img src={tiktok} alt="TikTok"/>
           </div>
         </div>
         <p>Feito com carinho por Nardelli</p>

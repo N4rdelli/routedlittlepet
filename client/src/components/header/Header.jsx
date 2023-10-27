@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
-        <h1>LittlePet</h1>
+        <h1>DevPet</h1>
       </div>
       <div className={styles.navBar}>
         {navigation.map((item) => (
