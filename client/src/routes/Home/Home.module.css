@@ -33,16 +33,26 @@
 .servicos {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  
+  width: 100vw;
+  padding: 3em 0;
+
+  background: #e6e3fd;
 }
 
 .servicos h1 {
   font-size: 50px;
   font-weight: bolder;
-  color: #e6e3fd;
+  color: #1b0021;
+  margin: 0;
 }
 
 .servicos h3{
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 1em 0;
+    color: #1b0021;
 }
 
 .services {
